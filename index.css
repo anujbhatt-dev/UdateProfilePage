@@ -196,7 +196,7 @@ input{
   top:0;
   left: 0;
   background: rgba(4, 4, 4, 0.75);
-  height: 120vh;
+  height: 200vh;
   width: 100vw;
   z-index: -1;
 }
