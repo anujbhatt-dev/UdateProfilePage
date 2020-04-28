@@ -1,0 +1,202 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  padding-bottom: 0%;
+  height: 100%;
+  background-attachment: fixed;
+  background-image: url("img5.jpeg");
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  margin: 0;
+  z-index: 3;
+}
+@keyframes test2 {
+  0% {
+    color: chartreuse;
+  }
+
+  10% {
+    color: tomato;
+  }
+
+  20% {
+    color: aqua;
+  }
+
+  30% {
+    color: #efa8e4;
+  }
+
+  40% {
+    color: #8ec6c5;
+  }
+
+  50% {
+    color: #363062;
+  }
+
+  60% {
+    color: #d8ebb5;
+  }
+
+  70% {
+    color: #f76a8c;
+  }
+
+  80% {
+    color: #c70039;
+  }
+
+  90% {
+    color: #f5fcc1;
+  }
+
+  100% {
+    color: #596157;
+  }
+}
+h1 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 70px;
+  font-family: cursive;
+  animation: test2 3s infinite;
+  animation-timing-function: linear;
+  display: table;
+  z-index: 3;
+}
+
+.main-con{
+  background:rgba(0,0,0,0.8) ;
+  height: 85vh;
+  width: 60vw;
+  margin: 0 auto;
+  padding: 50px 50px;
+  z-index: 3;
+}
+.c1{
+  height: 72vh;
+  background:white;
+}
+
+.c3,.c4{
+  height: 35vh ;
+}
+.c4{
+  margin-top: 13px;
+}
+.c3{
+  background:white;
+}
+.c4{
+  background: white;;
+}
+.c1,.c3,.c4{
+
+  border-radius: 8px;
+  box-shadow:inset 0em 0em 30px black;
+}
+
+.name{
+  margin-top: 1px;
+  padding: 5px;
+}
+
+.top , .middle,.bottom{
+  width: 100%;
+  height: 50px;
+}
+.middle{
+  margin-top: -0.5px;
+}
+.bottom{
+  margin-top: -1px;
+}
+
+.middle{
+  border-radius: 0;
+}
+
+.update{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+
+input{
+  border-color: black;
+  background-color: transparent;
+  border-width: 1px;
+  box-shadow: 0 0 5px grey;
+}
+@media screen and (max-width:800px) {
+  input{
+    width: 100%;
+  }
+  .c4 input{
+    width: 10%;
+  }
+}
+
+.c4 input{
+  height: 20px;
+  width: 20px;
+}
+
+.c4 label{
+  position: relative;
+  top: -4px;
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  line-height: -5px;
+}
+.c1:first-child{
+  padding-top: 10%;
+}
+.c3 .password form{
+  margin-top: 30px;
+}
+/* .c4 input::before{
+  content: "\2610";
+  position: relative;
+  font-size: 30px;
+  left: -30px;
+  bottom: 15px;
+}
+.c4 input::after{
+  content: "\2611";
+  position: relative;
+  left: -55px;
+  bottom: 18px;
+  font-size: 20px;
+  opacity: 0;
+}
+
+.c4 label:checked{
+  opacity:1;
+} */
+
+.conty{
+  padding-top: 40px;
+  margin-left: 15px;
+}
+.ci{
+  position: absolute;
+  top:0;
+  left: 0;
+  background: rgba(4, 4, 4, 0.75);
+  height: 120vh;
+  width: 100vw;
+  z-index: -1;
+}
+::placeholder{
+  color: black;
+}
+/* 2611 */
+/* 2610 */
