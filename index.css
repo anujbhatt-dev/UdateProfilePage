@@ -71,137 +71,70 @@ h1 {
   z-index: 3;
 }
 
-.main-con{
-  background:rgba(0,0,0,0.8) ;
-  height: 85vh;
-  width: 60vw;
-  margin: 0 auto;
-  padding: 50px 50px;
-  z-index: 3;
-}
-@media screen and (min-width:1000px) {
-  .main-con{
-     width:100vh;
-  }
+.container{
+  border-radius: 4px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.85);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+
 }
 .c1{
-  height: 72vh;
-  background:white;
+  border-radius: 4px;
+  box-shadow: inset 0 0 100px black;
+  padding: 50px;
+background:white;
+}
+.c2{
+   display: grid;
+   grid-gap: 20px;
+}
+@media screen and (max-width:1200px) {
+    .container{
+      width: 90%;
+    }
+  .c1{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    }
+    .c2{
+      grid-column-start: 1;
+      grid-column-end: -1;
+    }
 }
 
-.c3,.c4{
-  height: 35vh ;
+.c11{
+  box-shadow: inset 0 0 100px black;
+  border-radius: 4px;
+  padding: 50px;
+  background: white;
 }
-.c4{
-  margin-top: 13px;
+.c12{
+  box-shadow: inset 0 0 100px black;
+  border-radius: 4px;
+  padding: 50px;
+  background: white;
 }
-.c3{
-  background:white;
-}
-.c4{
-  background: white;;
-}
-.c1,.c3,.c4{
-
-  border-radius: 8px;
-  box-shadow:inset 0em 0em 30px black;
-}
-
 .name{
-  margin-top: 1px;
-  padding: 5px;
+  padding: 10px;
+  margin: 0 auto;
 }
-
-.top , .middle,.bottom{
-  width: 100%;
+input{
+  width: 65%;
   height: 50px;
+  padding-left: 10px;
 }
-.middle{
-  margin-top: -0.5px;
+.c12 input{
+  width: auto;
 }
-.bottom{
-  margin-top: -1px;
-}
-
-.middle{
-  border-radius: 0;
-}
-
-.update{
-  background-color: rgba(0, 0, 0, 0);
+button{
+  position: relative;
+  top:-3px;
+  background: transparent;
   border: none;
 }
-
-
-input{
-  border-color: black;
-  background-color: transparent;
-  border-width: 1px;
-  box-shadow: 0 0 5px grey;
-}
-@media screen and (max-width:800px) {
-  input{
-    width: 100%;
-  }
-  .c4 input{
-    width: 10%;
-  }
+input:focus{
+  border-color:lightblue;
 }
 
-.c4 input{
-  height: 20px;
-  width: 20px;
-}
-
-.c4 label{
-  position: relative;
-  top: -4px;
-  height: 20px;
-  width: 20px;
-  margin-left: 5px;
-  line-height: -5px;
-}
-.c1:first-child{
-  padding-top: 10%;
-}
-.c3 .password form{
-  margin-top: 30px;
-}
-/* .c4 input::before{
-  content: "\2610";
-  position: relative;
-  font-size: 30px;
-  left: -30px;
-  bottom: 15px;
-}
-.c4 input::after{
-  content: "\2611";
-  position: relative;
-  left: -55px;
-  bottom: 18px;
-  font-size: 20px;
-  opacity: 0;
-}
-
-.c4 label:checked{
-  opacity:1;
-} */
-
-.conty{
-  padding-top: 40px;
-  margin-left: 15px;
-}
-.ci{
-  position: absolute;
-  top:0;
-  left: 0;
-  background: rgba(4, 4, 4, 0.75);
-  height: 200vh;
-  width: 100vw;
-  z-index: -1;
-}
-::placeholder{
-  color: black;
-}
-/* 2611 */
-/* 2610 */
