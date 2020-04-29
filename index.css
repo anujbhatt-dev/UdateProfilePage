@@ -127,6 +127,7 @@ input{
 }
 .c12 input{
   width: 10%;
+  height: auto;
 }
 button{
   position: relative;
